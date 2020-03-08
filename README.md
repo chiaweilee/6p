@@ -18,7 +18,7 @@ $ yarn create a [projectName]
 $ yarn create a
 
 ? Select the boilerplate type (Use arrow keys)
-❯ react-component     - Create a React Component. (React + Umi).
+❯ react-component     - Create a React Component, base on umi with umd and esm build.
   xxxxx               - Create a xxxxxxx.
   xxxxxxx             - Create a xxxxxxxxxxxxxx.
   xxxxxx              - Create a xxxxxxxx.
