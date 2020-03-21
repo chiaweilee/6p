@@ -7,7 +7,8 @@
     "dist"
   ],
   "scripts": {
-    "start": "umi dev",
+    "start": "npm run dev",
+    "dev": "father doc dev",
     "test": "umi test",
     "build": "father-build",
     "lint": "npm run lint:es && npm run lint:ts && npm run lint:style",
@@ -29,6 +30,7 @@
     "eslint-plugin-import": "^2.14.0",
     "eslint-plugin-prettier": "^3.0.1",
     "eslint-plugin-react": "^7.14.2",
+    "father": "^2.29.2",
     "father-build": "^1.8.0",
     "np": "^5.0.3",
     "prettier": "^1.18.2",
