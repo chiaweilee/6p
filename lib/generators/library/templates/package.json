@@ -9,7 +9,10 @@
   "scripts": {
     "start": "npm run dev",
     "dev": "father doc dev",
-    "test": "umi test",
+    "doc": "father doc build",
+    "deploy": "father doc deploy",
+    "test": "father test --coverage",
+    "cov": "father test --coverage",
     "build": "father-build",
     "lint": "npm run lint:es && npm run lint:ts && npm run lint:style",
     "lint:es": "eslint --ext .js --ext .jsx . --fix",
@@ -45,10 +48,7 @@
     "tslint-config-ali": "^0.2.4",
     "tslint-config-prettier": "^1.18.0",
     "tslint-eslint-rules": "^5.4.0",
-    "typescript": "^3.3.3333",
-    "umi": "^2.9.0",
-    "umi-plugin-react": "1.15.2",
-    "umi-types": ">= 0.4.0-beta.4"
+    "typescript": "^3.3.3333"
   },
   "license": "MIT"
 }
